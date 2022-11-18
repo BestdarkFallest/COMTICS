@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="utf-8"/>
+        <title>
+            Inicio-COMTICS
+        </title>
+        <meta name="description" content="Esta es la página de inicio"/>
+        <meta name="autor" content="Santiago Recalde"/>
+        <meta name="keywords" content="Inicio"/>
+
+        <link rel="stylesheet" href="COMTICS_principal.css">
+        <link rel="stylesheet" href="carrusel.css">
+    </head>
+    <body>
+        <nav class="menu">
+            <label id="logo">
+                    COMTICS
+            </label>
+            <ul>
+                <li class="midbutton">
+                        <a href="Error.html">
+                            <h1 class="button">TICS</h1>
+                        </a>
+                        <a href="Error.html">
+                            <h1 class="button">Videos</h1>
+                        </a>
+                </li>
+            </ul>
+            <div class="rightbutton">    
+                <a href="COMTICS_iniciarsesion.html">
+                    <h1 class="button">Iniciar sesión</h1>
+                </a>
+                <a href="COMTICS_registro.html">
+                    <h1 class="button">Registrarse</h1>
+                </a>
+            </div>
+        </nav>
+
+        <section class="PrimerSeccion">
+            <img id="imPrin" src="Imagenes/Inicioprincipal.jpg" alt="">
+            <aside class="ladoDerecho">
+                <p>
+                    <span>Potenciá tus habilidades, ayudá a los demás</span> y mejorá tu conocimiento sobre herramientas digitales
+                </p>
+                <a href="">
+                   <h1>Aprendé a utilizar el sitio</h1> 
+                </a>
+            </aside>
+        </section>
+
+        <div id="buscar">
+            <input type="text" class="Buscar_texto" placeholder="Buscador">
+            <a href="" class="button">
+                <img id="lupaPNG" src="Imagenes/ICONOS/lupaPNG.png" alt="">
+            </a>
+
+        </div>
+
+        <div id="filtros">
+            <a id="alumno" href="">
+                <img class="filterimg" src="Imagenes/FILTROS/FILTROALUMNO.jpg" alt="">
+                <h2 class="centrado">ALUMNO</h2>
+            </a>
+            <a id="docente" href="">
+                <img class="filterimg" src="Imagenes/FILTROS/FILTRODOCENTE.jpg" alt="">
+                <h2 class="centrado">DOCENTE</h2>
+            </a>
+        </div>
+
+        <div class="separador">
+            <div class="bloqueInterno">
+                <img class="icon" src="Imagenes/ICONOS/RECIENTES.png" alt="">
+                <h2>Recientes</h2>
+            </div>
+        </div>
+
+        <div class="carrusel">
+            <div class="slick-list" id="slick-list">
+                <button class="slick-flecha slick-anterior" id="boton-anterior" data-button="boton-anterior" onclick="app.processingButton(event)">
+                    <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="chevron-left" class="svg-inline--fa fa-chevron-left fa-w-10" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512"><path fill="currentColor" d="M34.52 239.03L228.87 44.69c9.37-9.37 24.57-9.37 33.94 0l22.67 22.67c9.36 9.36 9.37 24.52.04 33.9L131.49 256l154.02 154.75c9.34 9.38 9.32 24.54-.04 33.9l-22.67 22.67c-9.37 9.37-24.57 9.37-33.94 0L34.52 272.97c-9.37-9.37-9.37-24.57 0-33.94z"></path></svg>
+                </button>
+                <div class="slick-pista" id="pista">
+                    <div class="slick">
+                        <div>
+                            <a href="https://www.desmos.com/calculator?lang=es">
+                                <picture>
+                                    <img src="imagenes/MINIATURAS/DESMOS.jpg" alt="imagen">
+                                </picture>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="slick">
+                        <div>
+                            <a href="https://www.infostat.com.ar/">
+                                <picture>
+                                    <img src="imagenes/MINIATURAS/INFOSTAT.jpg" alt="imagen">
+                                </picture>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="slick">
+                        <div>
+                            <a href="https://www.microsoft.com/es-es/makecode">
+                                <picture>
+                                    <img src="imagenes/MINIATURAS/MAKECODE.jpg" alt="imagen">
+                                </picture>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="slick">
+                        <div>
+                            <a href="https://qucs.sourceforge.net/">
+                                <picture>
+                                    <img src="imagenes/MINIATURAS/QUCS.jpg" alt="imagen">
+                                </picture>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="slick">
+                        <div>
+                            <a href="https://www.tinkercad.com/">
+                                <picture>
+                                    <img src="imagenes/MINIATURAS/TINKERCAD.jpg" alt="imagen">
+                                </picture>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="slick">
+                        <div>
+                            <a href="https://es.symbolab.com/">
+                                <picture>
+                                    <img src="imagenes/MINIATURAS/SYMBOLAB.jpg" alt="imagen">
+                                </picture>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="slick">
+                        <div>
+                            <a href="https://www.wolframalpha.com/">
+                                <picture>
+                                    <img src="imagenes/MINIATURAS/WOLFRAMALPHA.jpg" alt="imagen">
+                                </picture>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <button class="slick-flecha slick-siguiente" id="boton-siguiente" data-button="boton-siguiente" onclick="app.processingButton(event)">
+                    <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="chevron-right" class="svg-inline--fa fa-chevron-right fa-w-10" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512"><path fill="currentColor" d="M285.476 272.971L91.132 467.314c-9.373 9.373-24.569 9.373-33.941 0l-22.667-22.667c-9.357-9.357-9.375-24.522-.04-33.901L188.505 256 34.484 101.255c-9.335-9.379-9.317-24.544.04-33.901l22.667-22.667c9.373-9.373 24.569-9.373 33.941 0L285.475 239.03c9.373 9.372 9.373 24.568.001 33.941z"></path></svg>
+                </button>
+            </div>
+        </div>
+
+        <div class="separador">
+            <div class="bloqueInterno">
+                <img class="icon" src="Imagenes/ICONOS/POPULAR.png" alt="">
+                <h2>Populares</h2>
+            </div>
+        </div>
+
+        <div class="carrusel">
+            <div class="slick-list" id="slick-list">
+                <button class="slick-flecha slick-anterior" id="boton-anterior" data-button="boton-anterior" onclick="app.processingButton(event)">
+                    <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="chevron-left" class="svg-inline--fa fa-chevron-left fa-w-10" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512"><path fill="currentColor" d="M34.52 239.03L228.87 44.69c9.37-9.37 24.57-9.37 33.94 0l22.67 22.67c9.36 9.36 9.37 24.52.04 33.9L131.49 256l154.02 154.75c9.34 9.38 9.32 24.54-.04 33.9l-22.67 22.67c-9.37 9.37-24.57 9.37-33.94 0L34.52 272.97c-9.37-9.37-9.37-24.57 0-33.94z"></path></svg>
+                </button>
+                <div class="slick-pista" id="pista">
+                    <div class="slick">
+                        <div>
+                            <a href="https://www.desmos.com/calculator?lang=es">
+                                <picture>
+                                    <img src="imagenes/MINIATURAS/DESMOS.jpg" alt="imagen">
+                                </picture>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="slick">
+                        <div>
+                            <a href="https://www.infostat.com.ar/">
+                                <picture>
+                                    <img src="imagenes/MINIATURAS/INFOSTAT.jpg" alt="imagen">
+                                </picture>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="slick">
+                        <div>
+                            <a href="https://www.microsoft.com/es-es/makecode">
+                                <picture>
+                                    <img src="imagenes/MINIATURAS/MAKECODE.jpg" alt="imagen">
+                                </picture>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="slick">
+                        <div>
+                            <a href="https://qucs.sourceforge.net/">
+                                <picture>
+                                    <img src="imagenes/MINIATURAS/QUCS.jpg" alt="imagen">
+                                </picture>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="slick">
+                        <div>
+                            <a href="https://www.tinkercad.com/">
+                                <picture>
+                                    <img src="imagenes/MINIATURAS/TINKERCAD.jpg" alt="imagen">
+                                </picture>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="slick">
+                        <div>
+                            <a href="https://es.symbolab.com/">
+                                <picture>
+                                    <img src="imagenes/MINIATURAS/SYMBOLAB.jpg" alt="imagen">
+                                </picture>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="slick">
+                        <div>
+                            <a href="https://www.wolframalpha.com/">
+                                <picture>
+                                    <img src="imagenes/MINIATURAS/WOLFRAMALPHA.jpg" alt="imagen">
+                                </picture>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <button class="slick-flecha slick-siguiente" id="boton-siguiente" data-button="boton-siguiente" onclick="app.processingButton(event)">
+                    <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="chevron-right" class="svg-inline--fa fa-chevron-right fa-w-10" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512"><path fill="currentColor" d="M285.476 272.971L91.132 467.314c-9.373 9.373-24.569 9.373-33.941 0l-22.667-22.667c-9.357-9.357-9.375-24.522-.04-33.901L188.505 256 34.484 101.255c-9.335-9.379-9.317-24.544.04-33.901l22.667-22.667c9.373-9.373 24.569-9.373 33.941 0L285.475 239.03c9.373 9.372 9.373 24.568.001 33.941z"></path></svg>
+                </button>
+            </div>
+        </div>
+        
+        <footer class="pie">
+            <label id="logopie">
+                COMTICS
+            </label>
+        </footer>
+        <script defer src="carrusel.js"></script>
+    </body>
+</html>

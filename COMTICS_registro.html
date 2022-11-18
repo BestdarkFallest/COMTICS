@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="utf-8"/>
+        <title>
+            Registrarme
+        </title>
+        <meta name="description" content="Esta es la página de registro"/>
+        <meta name="keywords" content="Inicio"/>
+
+        <link rel="stylesheet" href="registro.css">
+    </head>
+    <body>
+        <div class="formulario">
+            <h2>Registrarme</h2>
+            <form method="post">
+                <div class="username">
+                    <input type="text" id="myname" placeholder="Nombre"> 
+                </div>
+                <div class="username">
+                    <input type="text" id="surname" placeholder="Apellido">
+                </div>
+                <div class="username">
+                    <input type="mail" id="Email" placeholder="Email">
+                </div>
+                <div class="username">
+                    <input type="password" id="password" placeholder="Contraseña">
+                </div>
+                
+                <label for="Rol" class="rolcss">Rol: </label>
+                <input type="radio" name="Roles" value=1 id=1>Docente</input>
+                <input type="radio" name="Roles" value=2 id=2>Alumno</input>
+
+
+                <div class="boton-registrarse">
+                <input type="submit" value="Registrarme" id="btnRegistrarse">
+                </div>
+
+                <div class="iniciar-sesion">Quiero <a href="COMTICS_iniciarsesion.html">Iniciar sesión</a></div>
+            </form>
+        </div>
+        <script src="logicaNegocionUsuarios.js"></script>
+        <script src="Registro.js"></script>
+    </body>
+
+</html>

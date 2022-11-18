@@ -1,0 +1,90 @@
+.carrusel {
+    width: 1rem;
+    margin: 0rem 1rem;
+}
+
+.Carousel h2{
+    font-size: 26px;
+    line-height: 38px;
+    padding-bottom: 24px;
+    opacity: .9;
+    text-transform: uppercase;
+    letter-spacing: 10px;
+    text-align: center;
+}
+
+/* images */
+
+.slick-list{
+    position: relative;
+    display: flex;
+    align-items: center;
+    width: fit-content;
+    height: 300px;
+    padding: 10px;
+    margin: 0px auto;
+    max-width: 94vw;
+    overflow: hidden;
+}
+
+.slick-pista{
+    position: relative;
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    transition: .5s ease-in-out;
+}
+
+.slick{
+    position: relative;
+    width: 275px;
+    padding: 0 18px;
+    float: left;
+    box-sizing: border-box;
+    display: flex;
+    height: 100%;
+}
+
+.slick a img{
+    object-fit: cover;
+    height: 300px;
+    width: 100%;
+    border-radius: 4px;
+    box-shadow: 0 2px 5px 0 rgba(0,0,0,.5);
+    transition: .3s ease-in-out;
+}
+.slick a img:hover{
+    opacity: .85;
+}
+
+.slick-flecha{
+    border-radius: 30px;
+    background-color: #fff;
+    position: absolute;
+    z-index: 4;
+    width: 48px;
+    height: 48px;
+    text-align: center;
+    box-shadow: 0 2px 5px 0 rgba(0,0,0,.15);
+    border: 0;
+    cursor: pointer;
+}
+
+.slick-flecha:focus{
+    outline: 0;
+}
+
+.slick-flecha svg{
+    width: 0.8rem;
+    height: 100%;
+    color: rgba(55, 101, 112, 0.7);
+}
+
+.slick-anterior{
+    left: 17.5px;
+}
+.slick-siguiente{
+    right: 0px;
+}
+

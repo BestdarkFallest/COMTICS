@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="es">
+    
+    <head>
+        <meta charset="utf-8"/>
+        <title>
+            Inicio Sesión-COMTICS
+        </title>
+        <meta name="description" content="Esta es la página de inicio"/>
+        <meta name="autor" content="Santiago Recalde"/>
+        <meta name="keywords" content="Inicio"/>
+
+        <link rel="stylesheet" href="COMTICS_iniciarsesion.css">
+
+
+    </head>
+    <body>
+
+        <div class="formulario">
+            <h2>Iniciar sesión</h2>
+            <form method="post">
+                <div class="username">
+                    <input type="text" required id="txtMail" placeholder="Email">
+                </div>
+                <div class="username">
+                    <input type="password" required id="txtPass" placeholder="Contraseña">
+                </div>
+                <div class="recordar"><a href="">Olvide la contraseña</a></div>
+
+                <input type="submit" value="Iniciar" id="btnIngresar">
+                
+                <div class="registrarse">Quiero <a href="COMTICS_registro.html">Registrarme</a></div>
+            </form>
+        </div>
+        <script src="logicaNegocionUsuarios.js"></script>
+        <script src="logicaInterfazInicioSesion.js"></script>
+    </body>
+    
+</html>
